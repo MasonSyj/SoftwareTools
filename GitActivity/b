@@ -1,0 +1,95 @@
+#!/bin/bash
+
+if [ "$#" == "0" ]
+then
+    echo "No command found, input compile, run, or build"
+    echo "As first parameter"
+    echo "Input filename(e.g hello or hello.c)"
+    echo "As second parameter"
+    exit 1
+elif [ "$#" == "1" ]
+then
+   if [[ "$1" == "compile" || "$1" == "run" || "$1" == "build" ]]
+   then
+      echo "Command Matched but no File is input"
+      exit 1
+   else
+      echo "Wrong Command"
+      exit 1
+   fi
+fi
+      
+
+#echo ${"$2"/.c/""}
+#echo "${2%.*}" >> $2
+
+if [ "${1}" == "compile" ]
+then
+   if [ "${2}" == *".c"* ] #if contains a .c
+   then
+      name="${2%.*}"
+      echo "${name}"
+   else
+      name="${2}"
+   fi
+
+   if [ -e "${name}".c ]
+   then
+      gcc -Wall -std=c11 -g "${name}".c -o "${name}"
+   else
+      echo "Compile failed: no ""${name}".c" found in this folder"
+   fi
+fi
+
+
+
+if [ "${1}" == "run" ]
+then
+   if [ "${2}" == *".c"* ] #if contains a .c
+   then
+      name="${2%.*}"
+      echo "${name}"
+   else 
+      name="${2}"
+   fi
+
+   if [ ! -f "${name}".c ]
+   then 
+      echo "no executable file called \""${name}"\" found in this folder"
+   else
+      ./"${name}"
+   fi
+fi
+
+if [ "${1}" == "build" ]
+then
+   if [ "${2}" == *".c"* ] #if contains a .c
+   then
+      name="${2%.*}"
+      echo "${name}"
+   else
+      name="${2}"
+   fi
+
+   if [ -e "${name}".c ]
+   then
+      gcc -Wall -std=c11 -g "${name}".c -o "${name}"
+      ./"${name}"
+   else
+      echo "Build failed"
+   fi
+fi
+
+
+
+
+
+
+
+
+#gcc -Wall -std=c11 -g "${name}".c -o "${name}"
+
+
+
+
+#gcc -Wall -std=c11 -g $NAME.c -o $NAME
