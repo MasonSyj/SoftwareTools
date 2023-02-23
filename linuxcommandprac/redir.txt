@@ -1,0 +1,4 @@
+tj22981
+/home/tj22981/linuxcommandprac
+Wed  1 Feb 16:27:05 GMT 2023
+Using echo to append a new line
