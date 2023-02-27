@@ -25,3 +25,7 @@ Two Website that might be useful
 https://stackoverflow.com/questions/47630950/how-can-i-switch-to-another-branch-in-git
 
 https://stackoverflow.com/questions/57244094/git-push-when-it-ask-to-set-upstream-and-when-it-and-does-not
+sudo usermod -a -G users lining
+it will add lining to the users group
+however, mason's directory may belong to a group called masoneven though mason is also in the users group
+then you should chown mason:users exampleFile
