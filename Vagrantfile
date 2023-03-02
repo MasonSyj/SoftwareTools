@@ -7,6 +7,7 @@ Vagrant.configure("2") do |config|
     echo 'set completion-ignore-case On' >> /etc/inputrc
     apk add npm
     npm install -g tldr
+    tldr tldr
     apk add libc6-compat
     apk add git
     apk add gcc
