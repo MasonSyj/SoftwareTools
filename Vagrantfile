@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/alpine317"
-  config.vm.network "forwarded_port", guest: 8080, host: 1236
+  config.vm.network "forwarded_port", guest: 8080, host: 1234
   config.vm.synced_folder ".", "/vagrant"
 
   config.vm.provision "shell", inline: <<-SHELL
