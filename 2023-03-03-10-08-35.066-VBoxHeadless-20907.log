@@ -1,0 +1,12 @@
+Log created: 2023-03-03T10:08:35.662416000Z
+Process ID:  20907 (0x51ab)
+Parent PID:  20250 (0x4f1a)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: vagrant_default_1677792046715_77238
+Arg[3]: --startvm
+Arg[4]: ddc3c132-3156-4728-b258-198a3e886915
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2
