@@ -1,0 +1,11 @@
+SELECT sub.rank 
+FROM 
+	(
+	SELECT Party.name as Pname, Candidate.name as Cname, Candidate.votes / Ward.electorate * 100 AS Percnt, RANK() OVER(ORDER BY Percnt DESC) AS rank 
+        FROM Candidate, Ward, Party
+	WHERE Party.id = Candidate.party 
+	AND Ward.id = Candidate.ward 
+        AND Ward.name LIKE '%Whitchurch%';
+	) AS sub
+WHERE sub.Pname LIKE 'Labour';
+

@@ -3,3 +3,4 @@ new.sh
 /GitActivity/gitIgnore/*.c
 /GitActivity/gitIgnore/ignoredfile
 !/.gitignore
+2023*
