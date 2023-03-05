@@ -20,6 +20,10 @@ clone and track only a specific branch
 git reset --hard origin/main 
 
 reset your remote branch to origin
+
+git rm --cached path/to/file/filename
+
+if a file a already tracked but want to untrack, first step is to add to gitignore, second is to run the above commands.
 ```
 
 # Online Git exercise
