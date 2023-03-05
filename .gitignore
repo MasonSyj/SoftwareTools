@@ -3,5 +3,9 @@
 /GitActivity/gitIgnore/ignoredfile
 !/.gitignore
 2023*
-GitActivity/*.c
-!GitActivity/*.*
+GitActivity/*
+!GitActivity/b
+!GitActivity/*.md
+!GitActivity/*.sh
+!GitActivity/Merge_Rebase
+!GitActivity/gitIgnore
