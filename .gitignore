@@ -4,6 +4,6 @@ new.sh
 /GitActivity/gitIgnore/ignoredfile
 !/.gitignore
 2023*
-GitActivity/*.c/
-GitActivity/*/
+GitActivity/*.c
+GitActivity/*
 !GitActivity/*.*/
