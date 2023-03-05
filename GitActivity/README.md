@@ -6,6 +6,16 @@ https://stackoverflow.com/questions/47630950/how-can-i-switch-to-another-branch-
 
 https://stackoverflow.com/questions/57244094/git-push-when-it-ask-to-set-upstream-and-when-it-and-does-not
 
+# Commands from Online
+
+git clone --branch <branchname> <remote-repo-url> 
+
+clone from a remote respoitory and immediately change to specific branch (only one more move compared with general way)
+
+git clone -b passwordless-auth --single-branch <remote-repo-url> 
+
+clone and track only a specific branch
+
 # Online Git exercise
 
 Created time: February 8, 2023 8:23 PM
