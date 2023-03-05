@@ -5,3 +5,5 @@ new.sh
 !/.gitignore
 2023*
 GitActivity/*.c/
+GitActivity/*/
+!GitActivity/*.*/
