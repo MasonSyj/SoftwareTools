@@ -26,6 +26,18 @@ git rm --cached path/to/file/filename
 //if a file a already tracked but want to untrack, first step is to add to gitignore, second is to run the above commands.
 ```
 
+```
+##GitIgnore
+
+*/*         #ignore all files in each directory
+
+!*/*.c      #unignore .c files in each directory
+
+!*/*.h      #unignore .h header files in each directory
+
+!.gitignore #unignore .gitignore
+```
+
 # Online Git exercise
 
 Created time: February 8, 2023 8:23 PM
