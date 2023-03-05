@@ -16,6 +16,10 @@ clone from a remote respoitory and immediately change to specific branch (only o
 git clone -b passwordless-auth --single-branch <remote-repo-url> 
 
 clone and track only a specific branch
+
+git reset --hard origin/main 
+
+reset your remote branch to origin
 ```
 
 # Online Git exercise
