@@ -6,4 +6,4 @@ new.sh
 2023*
 GitActivity/*.c
 GitActivity/*
-!GitActivity/*.*/
+!GitActivity/*.*
