@@ -8,6 +8,7 @@ https://stackoverflow.com/questions/57244094/git-push-when-it-ask-to-set-upstrea
 
 # Commands from Online
 
+```
 git clone --branch <branchname> <remote-repo-url> 
 
 clone from a remote respoitory and immediately change to specific branch (only one more move compared with general way)
@@ -15,6 +16,7 @@ clone from a remote respoitory and immediately change to specific branch (only o
 git clone -b passwordless-auth --single-branch <remote-repo-url> 
 
 clone and track only a specific branch
+```
 
 # Online Git exercise
 
