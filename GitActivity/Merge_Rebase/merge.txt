@@ -1,0 +1,15 @@
+Try merge, this word is from vagrant
+<<<<<<< HEAD
+from mvb 1.08
+=======
+<<<<<<< HEAD
+But this is from Mac
+=======
+from mvb 1.08
+>>>>>>> 6648312 (new content from vagratn)
+<<<<<<< HEAD
+//this keyboard is good
+=======
+//some new stuffy
+>>>>>>> d02c4b3ca9290175cfc1ac96e739fa6a174d017f
+>>>>>>> 34bb1e8b7faa5d06cbe8e8862f469739375e3eec
