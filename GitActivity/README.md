@@ -24,7 +24,7 @@ git merge newbranch //fetch na
 //assume the HEAD is pointing to main
 //then merge will init a new commit from main
 ```
-![alt text](https://github.com/MasonSyj/GitActivity/blob/master/Merge.png?raw=true)
+![alt text](https://github.com/MasonSyj/SoftwareTools/blob/master/GitActivity/Merge.png?raw=true)
 
 ```bash
 git rebase main //give tui
