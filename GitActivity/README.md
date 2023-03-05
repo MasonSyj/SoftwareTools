@@ -27,7 +27,7 @@ git rm --cached path/to/file/filename
 ```
 
 ```
-##GitIgnore
+##GitIgnore four symbol: #, ##, ?, !
 
 */*         #ignore all files in each directory
 
@@ -36,7 +36,18 @@ git rm --cached path/to/file/filename
 !*/*.h      #unignore .h header files in each directory
 
 !.gitignore #unignore .gitignore
+
+
+*
+
+!/**/
+
+!*.*
+
+Should ignore all files, except the ones with an extension.
 ```
+
+
 
 # Online Git exercise
 
