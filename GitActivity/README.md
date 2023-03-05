@@ -11,19 +11,19 @@ https://stackoverflow.com/questions/57244094/git-push-when-it-ask-to-set-upstrea
 ```
 git clone --branch <branchname> <remote-repo-url> 
 
-clone from a remote respoitory and immediately change to specific branch (only one more move compared with general way)
+//clone from a remote respoitory and immediately change to specific branch (only one more move compared with general way)
 
 git clone -b passwordless-auth --single-branch <remote-repo-url> 
 
-clone and track only a specific branch
+//clone and track only a specific branch
 
 git reset --hard origin/main 
 
-reset your remote branch to origin
+//reset your remote branch to origin
 
 git rm --cached path/to/file/filename
 
-if a file a already tracked but want to untrack, first step is to add to gitignore, second is to run the above commands.
+//if a file a already tracked but want to untrack, first step is to add to gitignore, second is to run the above commands.
 ```
 
 # Online Git exercise
