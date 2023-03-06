@@ -8,7 +8,24 @@ UNSET MANPATH
 
 echo "MANPATH=/usr/share/man" >> ~/.bashrc
 
+## Add/delete Add/remove a user and group operation
 ```
+sudo useradd [username]
+
+Replace "username" with the name you want to give the new user.
+
+sudo passwd [username]
+
+be prompted to enter and confirm the new password for the user.
+
+sudo userdel [username]
+
+Replace "username" with the name of the user you want to delete.
+
+sudo userdel -r username
+
+The -r option tells userdel to remove the user's home directory and mail spool as well.
+
 sudo usermod -a -G [group name] [username]
 
 sudo usermod -a -G users lining
