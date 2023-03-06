@@ -1,3 +1,4 @@
+```
 1. Search any line that contains the word in filename on Linux:
 
 grep 'word' filename
@@ -13,6 +14,7 @@ grep -R 'httpd' .
 4. Search and display the total number of times that the string ‘nixcraft’ appears in a file named frontpage.md:
 
 grep -c 'nixcraft' frontpage.md
+```
 
 ```
 grep 'word' filename
