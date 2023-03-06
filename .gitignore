@@ -1,8 +1,7 @@
-.*
 /GitActivity/gitIgnore/*.c
 /GitActivity/gitIgnore/ignoredfile
 !/.gitignore
-2023*
+2023*.log
 GitActivity/*
 !GitActivity/b
 !GitActivity/*.md
