@@ -10,7 +10,7 @@ grep -i 'bar' file1
 
 grep -R 'httpd' .
 
-4.Search and display the total number of times that the string ‘nixcraft’ appears in a file named frontpage.md:
+4. Search and display the total number of times that the string ‘nixcraft’ appears in a file named frontpage.md:
 
 grep -c 'nixcraft' frontpage.md
 
