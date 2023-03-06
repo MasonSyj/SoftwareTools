@@ -53,6 +53,11 @@ sudo gpasswd -d john developers
 groups john
 
 ```
+```
+//add a directory to PATH
+
+export PATH="/Directory1:$PATH"
+```
 
 ```
 # Add shell-option to ~/.inputrc to enable case-insensitive tab completion
@@ -64,3 +69,4 @@ sudo nano /etc/passwd
 
 //then chage the corresponding shell to what you want
 ```
+
