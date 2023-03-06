@@ -1,3 +1,5 @@
+# Online from: https://www.cyberciti.biz/faq/linux-redirect-error-output-to-file/
+
 ## Syntax To redirect all output to file
 
 The syntax is as follows to redirect output (stdout) as follows:
