@@ -4,9 +4,17 @@ https://cs-uob.github.io/COMSM0085/
 
 
 ## When no man page for some commands:
+```
 UNSET MANPATH
 
+MANPATH=/usr/share/man
+
+source ~/.bashrc
+
+//or
+
 echo "MANPATH=/usr/share/man" >> ~/.bashrc
+```
 
 ## Add/delete Add/remove a user and group operation
 ```
