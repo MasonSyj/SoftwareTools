@@ -9,15 +9,24 @@ UNSET MANPATH
 echo "MANPATH=/usr/share/man" >> ~/.bashrc
 
 ```
+sudo usermod -a -G [group name] [username]
+
 sudo usermod -a -G users lining
 
-//it will add lining to the users group
-
 //however, mason's directory may belong to a group called masoneven though mason is also in the users group
+
+//it will add lining to the users group
 
 //then you should 
 
 chown mason:users exampleFile
+
+sudo gpasswd -d [username] [group name]
+
+sudo gpasswd -d john developers
+
+groups john
+
 ```
 
 ```
