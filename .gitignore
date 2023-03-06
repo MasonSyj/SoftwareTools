@@ -1,3 +1,4 @@
+/.vagrant/**
 /GitActivity/gitIgnore/*.c
 /GitActivity/gitIgnore/ignoredfile
 !/.gitignore
