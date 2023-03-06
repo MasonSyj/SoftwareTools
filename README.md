@@ -52,6 +52,17 @@ sudo gpasswd -d john developers
 
 groups john
 
+//how to create a group
+sudo groupadd groupname
+
+//how to delete a group
+sudo groupdel groupname
+
+//How to Change a User’s Primary Group 
+sudo usermod -g groupname username
+
+id john
+
 ```
 ```
 //add a directory to PATH
