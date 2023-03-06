@@ -8,13 +8,20 @@ UNSET MANPATH
 
 echo "MANPATH=/usr/share/man" >> ~/.bashrc
 
+```
 sudo usermod -a -G users lining
 
-it will add lining to the users group
+//it will add lining to the users group
 
-however, mason's directory may belong to a group called masoneven though mason is also in the users group
+//however, mason's directory may belong to a group called masoneven though mason is also in the users group
 
-then you should 
+//then you should 
 
 chown mason:users exampleFile
+```
 
+```
+# Add shell-option to ~/.inputrc to enable case-insensitive tab completion
+
+echo 'set completion-ignore-case On' >> ~/.inputrc
+```
