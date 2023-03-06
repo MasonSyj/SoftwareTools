@@ -11,3 +11,8 @@
 6. /usr: The name usr stands for Unix System Resources, and this directory contains the majority of the application programs and files on the system, including libraries, documentation, and source code.
 
 7. /var: The name var stands for variable, and this directory contains variable data that changes frequently during the operation of the system, such as log files, mail spools, and temporary files.
+
+
+* /bin contains executable files that are part of the core operating system. These files need to be accessible before /usr gets mounted. (for instance, the mount command is in /bin/mount).
+
+* /usr/bin contains executable files that are not part of the core operating system. These are considered to be "system wide binaries".
