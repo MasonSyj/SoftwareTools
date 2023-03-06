@@ -34,3 +34,8 @@ groups john
 
 echo 'set completion-ignore-case On' >> ~/.inputrc
 ```
+```
+sudo nano /etc/passwd
+
+//then chage the corresponding shell to what you want
+```
