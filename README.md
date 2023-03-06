@@ -46,6 +46,10 @@ sudo usermod -a -G users lining
 
 chown mason:users exampleFile
 
+chown :users exampleFile //change group 
+
+chown mason: exampleFile //change owner, same as no :
+
 sudo gpasswd -d [username] [group name]
 
 sudo gpasswd -d john developers
