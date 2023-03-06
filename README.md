@@ -34,7 +34,7 @@ The .bash_profile file is a hidden script file with custom configurations for a 
 
 When running an interactive login shell, the system reads the following configuration file first:
 
-/etc/profile - Stores global configurations for login shells. The configurations apply to all users.
+* /etc/profile - Stores global configurations for login shells. The configurations apply to all users.
 
 Next, the Bash shell searches for specific user configuration files in the following order:
 
