@@ -79,10 +79,10 @@ public class DataService implements AutoCloseable{
 
     public static void main(String[] args) throws SQLException {
 
-        DataService test = new DataService("jdbc:sqlite:/vagrant/sampledata/census/setup.sql");
+        DataService test = new DataService("jdbc:sqlite:/vagrant/sampledata/census/census.db");
 
 //        Candidate candidate1 = test.getCandidate(2456);
-        try(PreparedStatement s = test.c.prepareStatement("SELECT * FROM Region")){
+        try(PreparedStatement s = test.c.prepareStatement("SELECT * FROM Region;")){
             ResultSet r = s.executeQuery();
             r.next();
             String code = r.getString("code");
