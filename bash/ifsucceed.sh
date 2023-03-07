@@ -2,10 +2,10 @@
 
 # test $? -eq 0 && printf "Command succeed\n" || printf "Command failed\n
 
-if [ $? -eq '0' ]
-then
-   printf "Command succeed.\n"
+pwd
+ 
+if [ $? -eq 0 ]; then
+    echo "Command Executed Successfully"
 else
-   printf "Command failed.\n"
+    echo "Command Failed"
 fi
-
