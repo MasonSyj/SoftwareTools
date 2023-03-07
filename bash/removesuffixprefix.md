@@ -9,7 +9,7 @@ $ echo ${y##*/}
 
 fizzbuzz
 
-${x%.bar} could also be ${x%.*} to remove everything after a dot or ${x%%.*} to remove everything after the first dot.
+$ {x%.bar} could also be ${x%.*} to remove everything after a dot or ${x%%.*} to remove everything after the first dot.
 
 Example:
 
