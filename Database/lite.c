@@ -1,3 +1,5 @@
+//Compile command gcc lite.c -lsqlite3 -o lite
+
 #include <sqlite3.h>
 #include <stdio.h>
 
