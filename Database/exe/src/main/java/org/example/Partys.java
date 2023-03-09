@@ -3,7 +3,7 @@ package org.example;
 
 public class Partys {
 
-    public Party(int id, String name){
+    public Partys(int id, String name){
         this.id = id;
         this.name = name;
     }

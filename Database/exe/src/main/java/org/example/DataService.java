@@ -89,13 +89,13 @@ public class DataService implements AutoCloseable{
 
         for (int i = 0; i < args.length; i++){
             Party temp = test.getParty(Integer.valueOf(args[i]));
-            System.out.println("Party #" + temp.id + " is: " + temp.name);
+            System.out.println("Party #" + temp.getId() + " is: " + temp.getName());
         }
 
         System.out.println("----------------Separate Line--------------------");
 
         for (int i = 0; i < parties.size(); i++){
-            System.out.println("Party #" + parties.get(i).id + " is: " + parties.get(i).name);
+            System.out.println("Party #" + parties.get(i).getId() + " is: " + parties.get(i).getName());
         }
 
 

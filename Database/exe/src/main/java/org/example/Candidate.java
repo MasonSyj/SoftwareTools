@@ -16,6 +16,6 @@ public class Candidate {
     }
 
     public String toDefaultString(){
-        return id + " name: " + name + "   \t\tparty: " + party.name + "  \t\tward: " + ward.name + "  votes: " + votes;
+        return id + " name: " + name + "   party: " + party.getName() + "  ward: " + ward.name + "  votes: " + votes;
     }
 }

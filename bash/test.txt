@@ -1,0 +1,10 @@
+Add 200 
+Spend 40
+Transfer 200 #209180
+Add 50 
+Spend 40
+Spend 40
+Add 500
+Add 30
+Transfer 200 #232123
+Spend 40
