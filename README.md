@@ -85,3 +85,5 @@ sudo nano /etc/passwd
 //then chage the corresponding shell to what you want
 ```
 
+ssh -i "Mason.pem" ec2-user@ec2-16-16-74-45.eu-north-1.compute.amazonaws.comy
+
