@@ -5,12 +5,12 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", inline: <<-SHELL
     echo 'set completion-ignore-case On' >> /etc/inputrc
+    apk add nodejs
+    apk add npm
     apk add libc6-compat
     apk add git
     apk add gcc
     apk add musl-dev
-    apk add nano
-    apk add nano-syntax
     echo "include /usr/share/nano/*.nanorc" >> ~/.nanorc
     ln -s /vagrant/.profile /home/vagrant/.profile
 
