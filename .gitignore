@@ -9,3 +9,4 @@ GitActivity/*
 !GitActivity/*.sh
 !GitActivity/Merge_Rebase
 !GitActivity/gitIgnore
+./COMSM0085/
