@@ -1,15 +1,21 @@
 from bs4 import BeautifulSoup
 import requests
 
-html_text = requests.get('https://beautiful-soup-4.readthedocs.io/en/latest/').text
+html_text = requests.get('http://masonbristol.me/cattax/index.html').text
 
 soup = BeautifulSoup(html_text, 'lxml')
 
 print(soup.title.text)
+print("-----------------------------")
+info = soup.find('p', class_='info')
 
-sections = soup.find_all('div', class_='section')
+print("-----------------------------")
+print(info)
 
-for section in sections:
-    print("---------------------------")
-    print(section)
-    print("---------------------------")
+strongElements = info.find_all('strong')
+
+for element in strongElements:
+    print(element.text)
+    print("-----------------------------")
+
+
